@@ -161,7 +161,7 @@ function Minicell() {
  // Methods.
  this.update = function () {
   if (this.yPos <= 40) this.flag = false;
-  else if (this.yPos >= 540) this.flag = true;
+  else if (this.yPos >= 500) this.flag = true;
 
   if (this.flag == false) this.yPos += 10;
   else if (this.flag == true) this.yPos -= 10;
