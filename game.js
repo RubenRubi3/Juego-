@@ -154,7 +154,7 @@ function GokuLife() {
 function Minicell() {
  // Properties.
  this.image = new Image(); this.image.src = "Imagenes/negro.jpg";
- this.xPos = 750; this.yPos = 300;
+ this.xPos = 700; this.yPos = 300;
  this.flag = false;
  this.died = false;
 
